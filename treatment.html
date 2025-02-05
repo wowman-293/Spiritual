@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علاج</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>روحانی علاج</h1>
+    </header>
+
+    <section class="form-container">
+        <h2>اپنے مسئلے کا حل منتخب کریں</h2>
+        
+        <button onclick="showTreatment('quran')">📖 قرآن پاک سے علاج</button>
+        <button onclick="showTreatment('service')">💰 ہماری سروس</button>
+
+        <div id="treatmentDetails" class="hidden">
+            <h3 id="treatmentTitle"></h3>
+            <p id="treatmentText"></p>
+            <a id="whatsappButton" href="#" target="_blank" class="hidden">📞 واٹس ایپ پر رابطہ کریں</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
